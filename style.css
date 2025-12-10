@@ -1,0 +1,32 @@
+/* Custom Utilities */
+.glass-nav {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+}
+
+.hero-bg {
+    background: radial-gradient(circle at 50% 50%, #ede9fe 0%, #ffffff 70%);
+}
+
+/* Smooth transition for the carousel items */
+.c-item {
+    transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* Added to ensure centering */
+    transform: translate(-50%, -50%);
+}
+
+/* Typewriter Cursor */
+.cursor {
+    display: inline-block;
+    width: 3px;
+    background-color: #4c1d95;
+    /* brand-900 */
+    animation: blink 1s step-end infinite;
+    vertical-align: middle;
+    height: 1em;
+    margin-left: 4px;
+}
